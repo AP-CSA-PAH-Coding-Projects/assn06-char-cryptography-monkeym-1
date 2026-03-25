@@ -65,7 +65,7 @@ public class CStringTestSuite {
   public void sortDescendingOrdersCharacters() {
     CString s = new CString("zebra");
     s.sortDescending();
-    assertCStringEquals("zrbea", s);
+    assertCStringEquals("zreba", s);
   }
 
   // Ensures descending sort handles repeated characters correctly.
